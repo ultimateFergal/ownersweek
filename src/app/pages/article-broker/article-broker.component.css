@@ -1,0 +1,266 @@
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+.ow-home-container-att-np {
+  background: url(../../../assets/images/abw.png) no-repeat;
+  background-size: cover;
+  min-height: 462px !important;
+}
+.ow-home-container-att-np.large {
+  height: 1000px;
+  align-items: center !important;
+  justify-content: center !important;
+  display: flex !important;
+}
+.ow-home-container-att-np-mg {
+  max-height: 344px !important;
+  min-height: 344px !important;
+}
+.ow-home-container-att-np-mg.large {
+  height: 1000px;
+  align-items: center !important;
+  justify-content: center !important;
+  display: flex !important;
+}
+.ow-home-container-girl-nh {
+  max-height: 344px !important;
+  min-height: 344px !important;
+}
+.ow-home-container-girl-nh.large {
+  height: 1000px !important;
+  align-items: center !important;
+  justify-content: center !important;
+  display: flex !important;
+}
+.ow-home-container-nh {
+  background: url(../../../assets/images/ow-landing-image-new.jpg) no-repeat;
+  background-size: cover;
+  max-height: 344px !important;
+  min-height: 344px !important;
+}
+.ow-home-container-nh.large {
+  height: 500px !important;
+  align-items: center !important;
+  justify-content: center !important;
+  display: flex !important;
+}
+.nh1 {
+  background: url(../../../assets/images/abw.png) no-repeat;
+  background-size: cover;
+}
+.nh2 {
+  background: url(../../../assets/images/biw.png) no-repeat;
+  background-size: cover;
+}
+.nh3 {
+  background: url(../../../assets/images/curly-girl-banner-web.png) no-repeat;
+  background-size: cover;
+}
+.ow-home-text-nh {
+  padding-top: 40px;
+  padding-left: 40px;
+  text-align: left;
+}
+@media screen and (max-width: 1440px) and (min-width: 767px) {
+  .ow-home-text-nh {
+    padding-left: 40px;
+  }
+}
+@media screen and (max-width: 765px) {
+  .ow-home-text-nh {
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 765px) {
+  .ow-home-container-nh {
+    max-height: 304px !important;
+    min-height: 304px !important;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background: url("../../../assets/images/ow-landing-image-mobile.png")
+      no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+  .ow-home-container-girl-nh {
+    max-height: 304px !important;
+    min-height: 304px !important;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background: url("../../../assets/images/curly-girl-banner-mobile.png")
+      no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+  .ow-home-container-att-np-mg {
+    max-height: 304px !important;
+    min-height: 304px !important;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background: url("../../../assets/images/bim.png") no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+}
+.ow-article-detail-broker {
+  margin-top: 51px;
+  margin-bottom: 30px;
+}
+.ow-article-detail-broker > section.row > div > h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.ow-article-detail-broker > section.row > div > h5 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.ow-article-detail-broker > section.row > div > p {
+  margin: 10px 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+.ow-article-detail-broker > section.row > div > p > strong {
+  font-weight: bold;
+}
+.ow-article-detail-broker > section.row > div > p > a {
+  font-weight: bold;
+  color: #0a63a0;
+}
+.ow-article-detail-broker > section.row > div > ol {
+  margin: 30px 0px 20px 0px;
+}
+.ow-article-detail-broker > section.row > div > ol > li {
+  font-family: "Times New Roman", Times, serif;
+}
+.ow-article-detail-broker > section.row > div section.article-feature {
+  padding: 8px;
+  background-color: #cfe2f3;
+  border: 1px solid #000;
+  margin: 30px 0px;
+}
+.ow-article-detail-broker > section.row > div section.article-feature p {
+  margin: 0px;
+  padding: 10px 20px;
+  line-height: 20px;
+}
+.ow-article-detail-broker > section.row > div section.article-feature p > a {
+  font-weight: bold;
+  color: #0a63a0;
+}
+.ow-article-detail-broker > section.row > div section.article-table {
+  margin: 40px 0px;
+}
+.ow-article-detail-broker > section.row > div section.article-table table {
+  border: 1px solid #f5f5f5;
+}
+.ow-article-detail-broker
+  > section.row
+  > div
+  section.article-table
+  table
+  thead
+  tr
+  > th {
+  background-color: #002060;
+  color: #fff;
+  padding: 5px;
+  text-align: center !important;
+  border: 1px solid #f5f5f5;
+}
+.ow-article-detail-broker
+  > section.row
+  > div
+  section.article-table
+  table
+  tbody
+  tr
+  td {
+  padding: 5px;
+  border: 1px solid #f5f5f5;
+}
+.ow-article-detail-broker
+  > section.row
+  > div
+  section.article-table
+  table
+  tbody
+  tr
+  td.category {
+  background: #999;
+  font-weight: bold;
+}
+.ow-article-detail-broker > section.row > div div.image {
+  margin: 30px 0px;
+}
+.ow-article-detail-broker
+  > section.row
+  > div.article-aside
+  > section.schedule-call {
+  color: #fff;
+  background-color: #324850;
+  padding: 20px;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.ow-article-detail-broker
+  > section.row
+  > div.article-aside
+  > section.schedule-call
+  > div
+  > div {
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ow-article-detail-broker
+  > section.row
+  > div.article-aside
+  > section.schedule-call
+  > div
+  > p {
+  margin-top: 40px;
+  font-size: 1.5em;
+  line-height: 1em;
+  text-align: center;
+}
+.article-body-nh {
+  margin-left: 40px;
+  max-width: 90%;
+  padding: 0px;
+}
+.schedule-call {
+  justify-content: center;
+  width: 250px !important;
+}
+@media screen and (max-width: 765px) {
+  .article-body-nh {
+    margin-left: 20px;
+    max-width: 90%;
+    padding: 0px;
+  }
+  .schedule-call {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 765px) {
+  .logo {
+    margin-top: 10% !important;
+  }
+  .sheduleOW {
+    font-size: 30px !important;
+  }
+  .talk-button {
+    margin-top: -30%;
+  }
+}

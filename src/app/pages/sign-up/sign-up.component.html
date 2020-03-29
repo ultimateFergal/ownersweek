@@ -1,0 +1,58 @@
+<app-header [place]="2"></app-header>
+<div class="container ow-register-container">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5">
+            <div class="card ow-sign-up-card">
+                <div class="card-body">
+                    <form class="ow-sign-up-form">
+                        <h5>Sign Up for a 1 - 1 Demo</h5>
+                        <div class="form-group">
+                            <label class="ow-sign-up-input-label">First Name *</label>
+                            <input type="text" class="form-control" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label class="ow-sign-up-input-label">Last Name *</label>
+                            <input type="text" class="form-control" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label class="ow-sign-up-input-label">Company *</label>
+                            <input type="text" class="form-control" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label class="ow-sign-up-input-label">Email *</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="ow-sign-up-button-container">
+                            <button type="submit" class="btn btn-light ow-sign-up-button"><b>Get a Demo</b></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 offset-lg-1 offset-xl-1 video-container">
+            <iframe src="https://player.vimeo.com/video/377275349" class="ow-sign-up-image ow-video-iframe" frameborder="0"
+                allow="autoplay; fullscreen" allowfullscreen ></iframe>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
+
+<style>
+ @media (max-width: 991px) {
+    .video-container {
+        margin-top: 10% !important;
+    }
+ }
+
+ @media (max-width: 767px) {
+    .video-container {
+        margin-left: 3% !important;
+        margin-right: 3% !important;
+
+    }
+ }
+</style>
+

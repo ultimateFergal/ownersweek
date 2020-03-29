@@ -1,0 +1,216 @@
+@import "../../../styles/owners-week/colors.scss";
+@import "../../../styles/owners-week/buttons.scss";
+@import "../../../styles/owners-week/variables.scss";
+
+
+.ow-questions-containers {
+  margin: 20px 0px;
+
+  >ul {
+    padding: 0px 0px 20px 0px;
+    margin: 0px;
+
+    >li {
+      list-style: none;
+
+
+      >section.question {
+        margin-top: 40px;
+        width: 100%;
+
+        h6 {
+          font: {
+            weight: 400 !important;
+          }
+
+          margin-bottom: 30px;
+        }
+
+        >ul {
+          padding: 0px 0px 20px 0px;
+          margin: 0px;
+          border-bottom: 1px solid $grey-soft;
+
+          >li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding: 5px 0px;
+
+            label {
+              margin-left: 20px;
+            }
+
+            >div {
+              &.search-industry {
+                position: relative;
+                width: 100%;
+
+                > input {
+                  width: 100%;
+                }
+
+                >section.list-detail {
+                  position: absolute;
+                  top: 50px;
+                  padding: 20px;
+                  border-radius: 2px;
+                  box-shadow: 1px 1px 2px rgba($black, 0.2);
+                  width: 550px;
+                  background: $white;
+                  z-index: 2;
+
+                  >div {
+                    font: {
+                      size: 0.9em;
+                    }
+
+                    padding: 5px 10px;
+
+                    &:hover {
+                      background: rgba($black, 0.2);
+                    }
+                  }
+                }
+              }
+            }
+
+          }
+        }
+
+        >section.get-stated {
+          >button {
+            width: 300px;
+            display: block;
+            background: $primary;
+            color: $white;
+
+            font: {
+              size: 0.95em;
+              weight: 400;
+            }
+
+            border: none;
+            padding: 7px 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.form-control {
+  border-radius: 0px;
+  height: 20px;
+  font-size: 14px !important;
+  height: 3em !important;
+  border-radius: 5px !important;
+  width: 300px;
+}
+
+
+.select-custom {
+  width: 300px;
+  height: 30px !important;
+}
+
+.ow-signup-containers {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+
+  >div {
+    >form {
+      margin-top: 15px;
+      width: 100%;
+
+      >div {
+        position: relative;
+        margin-bottom: 10px;
+
+        >input {
+          width: 100%;
+          padding: 0px 5px 0px 150px;
+
+          font: {
+            weight: 500;
+            size: 0.85em;
+            family: $font-family-myriadpro-regular;
+          }
+        }
+
+        >label {
+          position: absolute;
+          width: 140px;
+          left: 15px;
+          line-height: 40px;
+
+          font: {
+            size: 0.85em;
+          }
+        }
+
+        >p {
+          font: {
+            size: 0.85em;
+          }
+
+          >a {
+            color: $black;
+
+            font: {
+              weight: 400;
+            }
+
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 765px) {
+
+  input {
+    width: 20px !important;
+  }
+
+  .ow-signup-containers {
+    >div {
+      >h4 {
+        text-align: center;
+      }
+
+      >form {
+        >div {
+          input {
+            width: 100% !important;
+          }
+        }
+      }
+    }
+  }
+
+  section.list-detail {
+    width: 100% !important;
+  }
+
+  .search-industry {
+    width: 100%;
+    > input {
+      width: 100% !important;
+    }
+  }
+
+  .form-group {
+    width: 100% !important;
+    > input {
+      width: 100% !important;
+    }
+  }
+
+}

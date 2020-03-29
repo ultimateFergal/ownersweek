@@ -1,0 +1,58 @@
+@import "../../../styles/owners-week/colors.scss";
+
+.ow-register-container {
+  padding: 5% 5%;
+}
+.ow-sign-up-card {
+  border: 2px solid $primaryDark;
+  -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.75);
+}
+.ow-sign-up-form {
+  padding: 0% 2%;
+}
+.ow-sign-up-image {
+  width: 10%;
+}
+.ow-video-iframe {
+  width: 100% !important;
+  box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.75);
+}
+
+iframe {width:100%; height:100%;}
+
+.ow-sign-up-button-container {
+    text-align: center;
+}
+.ow-sign-up-button {
+    border-radius: 25px;
+    padding: 3% 10%;
+    border: 2px solid $primaryDark;
+}
+.ow-sign-up-input-label {
+    font-size: 12px;
+    margin-bottom: 0%;
+}
+.form-control {
+    border-radius: 0px;
+    height: 20px;
+    font-size: 12px;
+}
+.video-container {
+  padding: 3% 0%;
+}
+
+@media screen and (max-width: 765px) {
+  .ow-video-iframe {
+    width: 100% !important;
+    box-shadow: none;
+    margin-bottom: 5%;
+  }
+  .ow-register-container {
+    padding: 0% 0%;
+  }
+  .ow-sign-up-card {
+    margin: 5% 5%;
+  }
+}

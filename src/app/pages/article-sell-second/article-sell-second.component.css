@@ -1,0 +1,30 @@
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+.ow-home-container-girl-nh {
+  background: url("../../../assets/images/curly-girl-banner-web.png") no-repeat;
+  background-size: cover;
+  min-height: 462px !important;
+}
+.ow-article-detail .middleImageDiv {
+  text-align: center;
+}
+.ow-article-detail #hireAdButton {
+  margin-top: -15%;
+}
+.middleImage {
+  width: 100%;
+}
+@media screen and (max-width: 500px) {
+  #hireAdButton {
+    margin-top: -20% !important;
+    padding: 2px 0px;
+  }
+  .middleImage {
+    width: 110%;
+    margin-left: -5%;
+  }
+}

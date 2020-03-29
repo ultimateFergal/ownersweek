@@ -1,0 +1,29 @@
+.ow-btn {
+  padding: 6px 12px;
+  &.ow-btn-back {
+    background: transparent;
+    color: $black;
+    border: none;
+    width: 100px;
+  }
+  &.ow-btn-next {
+    background: $primary;
+    color: $white;
+    border: none;
+    width: 100px;
+  }
+  &.ow-btn-black {
+    background: $black;
+    color: $white;
+    border: none;
+    width: 150px;
+  }
+  &.ow-btn-white {
+    background: $white;
+    color: $black;
+    border: none;
+    width: 150px;
+    color: $black;
+    border: 1px solid $black;
+  }
+}

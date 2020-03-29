@@ -1,0 +1,185 @@
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.ow-home-container-att-np {
+  background: url(../../../assets/images/abw.png) no-repeat;
+  background-size: cover;
+  min-height: 462px !important;
+
+  &.large {
+    height: 1000px;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+  }
+}
+
+.ow-home-container-att-np-mg {
+  max-height: 344px !important;
+  min-height: 344px !important;
+
+  &.large {
+    height: 1000px;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+  }
+}
+
+.ow-home-container-girl-nh {
+  max-height: 344px !important;
+  min-height: 344px !important;
+
+  &.large {
+    height: 1000px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+  }
+}
+
+
+.ow-home-container-nh {
+  background: url(../../../assets/images/ow-landing-image-new.jpg) no-repeat;
+  background-size: cover;
+  max-height: 344px !important;
+  min-height: 344px !important;
+
+  &.large {
+    height: 500px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+  }
+}
+
+.nh1 {
+  background: url(../../../assets/images/abw.png) no-repeat;
+  background-size: cover;
+}
+
+.nh2 {
+  background: url(../../../assets/images/biw.png) no-repeat;
+  background-size: cover;
+}
+
+.nh3 {
+  background: url(../../../assets/images/curly-girl-banner-web.png) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 767px) {
+  .ow-home-text-nh {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .ow-home-text-nh {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .ow-home-container-nh {
+    max-height: 304px !important;
+    min-height: 304px !important;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background: url("../../../assets/images/ow-landing-image-mobile.png") no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .ow-home-container-girl-nh {
+    max-height: 304px !important;
+    min-height: 304px !important;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background: url("../../../assets/images/curly-girl-banner-mobile.png") no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .ow-home-container-att-np-mg {
+    max-height: 304px !important;
+    min-height: 304px !important;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background: url("../../../assets/images/bim.png") no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+
+/*   .ow-home-container-att-np {
+    max-height: 320px !important;
+    min-height: 320px !important;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background: url("../../../assets/images/abm.png") no-repeat;
+    background-size: cover;
+    object-fit: scale-down;
+  } */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 765px) {
+  .logo {
+    margin-top: 10% !important;
+  }
+  .sheduleOW {
+    font-size: 30px !important;
+  }
+  .talk-button {
+    margin-top: -30%;
+  }
+}
+
+
